@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header class="conteiner" >
+
+      <div class="menu">
+        <div class="block1" id="ham-btn">
+          <div class="ham-btn">
+            <button type="button" onclick="ham_Start()" id="btn-1" ><ion-icon name="menu-outline"></ion-icon></button>
+          </div>
+
+          <div class="logo">
+            <img src="./logo.png" alt="">
+          </div>
+
+        </div>
+
+        <div class="menu-itens">
+          <ul class="itens">
+            <li>Inico</li>
+            <li>Sobre Nós</li>
+            <li>Contato</li>
+          </ul>
+        </div>
+
+      </div> 
+
+      <div class="ham-list" id="nav-ham">
+
+        <div class="close" id="close-btn">
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+
+        <div class="logo2">
+            <img src="./logo.png" alt="">
+            <span>The Forest</span>
+        </div>
+
+        <div class="nav-list">
+          <ul>
+
+            <li>
+              <button class="style-btn" type="button" onclick="langToggle()">Mudar idioma</button>
+            </li>
+
+
+            <li>
+              <button class="style-btn" id="theme" type="button">Mudar Tema</button>
+            </li>
+
+          </ul>
+        </div>
+
+      
+       
+
+      </div>
+
+        <div class="lang-block">
+          <span class="change-lang">Toggle Language</span>
+          <ul>
+            <li id="i1"><a href="#">English</a></li>
+            <li id="i2"><a href="#">Spanish</a></li>
+          </ul>
+        </div>
+
+
+    </header>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
